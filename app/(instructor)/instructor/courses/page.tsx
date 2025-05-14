@@ -11,7 +11,7 @@ async function CoursesPage() {
     }
   return (
     <div className='px-6 py-4'>
-        <Link href="instructor/create-course"><Button>Tạo khóa học mới</Button></Link>
+        <Link href="/instructor/create-course"><Button>Tạo khóa học mới</Button></Link>
     </div>
   )
 }
